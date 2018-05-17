@@ -133,7 +133,16 @@ LaunchRequest Payload Example (full)
 IntentRequest Payload Example (simplified)
 
 ```json
-
+{
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.7bfbb240-78c3-4622-b255-53a8dcc34376",
+    "timestamp": "2018-05-15T17:34:12Z",
+    "locale": "en-US",
+    "intent": {
+        "name": "GetNewFactIntent",
+        "confirmationStatus": "NONE"
+    }
+}
 ```
 
 IntentRequest Payload Example (full)
